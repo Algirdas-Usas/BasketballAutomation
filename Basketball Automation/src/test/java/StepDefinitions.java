@@ -101,7 +101,7 @@ public class StepDefinitions {
     public void enterDifferentPasswords() {
         fillAllFields();
         fillField(By.xpath("//input[contains(@id,'password')]"), "BMWSVART123!!");
-        fillField(By.xpath("//input[contains(@id,'confirmpassword')]"), "BMWVIT?!");
+        fillField(By.xpath("//input[contains(@id,'confirmpassword')]"), "BMWVIT123?!");
         declineAllTerms();
         System.out.println("Entered mismatched passwords and did not accept terms");
     }
